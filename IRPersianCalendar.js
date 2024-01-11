@@ -955,16 +955,12 @@ class IRPersianCalendar extends Infrastructure
         }
 
         this.#selected[0] = year;
-        this.#selected[2] = day_count;
 
         if(month !== undefined)
         {
             this.#selected[1] = month;
         }
 
-        let selected_day = this.#getSelectedDayWithEvents();
-
-        this.triggerEvent("updateDate", [selected_day]);
         this.#initDays();
     }
 
@@ -978,11 +974,7 @@ class IRPersianCalendar extends Infrastructure
         }
 
         this.#selected[1] = month;
-        this.#selected[2] = day_count;
 
-        let selected_day = this.#getSelectedDayWithEvents();
-
-        this.triggerEvent("updateDate", [selected_day]);
         this.#initDays();
     }
 
@@ -1009,11 +1001,7 @@ class IRPersianCalendar extends Infrastructure
 
         this.#selected[0] = year;
         this.#selected[1] = month;
-        this.#selected[2] = 1;
 
-        let selected_day = this.#getSelectedDayWithEvents();
-
-        this.triggerEvent("updateDate", [selected_day]);
         this.#initDays();
 
         return this.#selected;
@@ -1024,8 +1012,6 @@ class IRPersianCalendar extends Infrastructure
         let year = this.#selected[0];
         let month = this.#selected[1];
 
-        let day_count = this.#dayCountInMonth(year, month);
-        
         if(month === 1)
         {
             year--;
@@ -1036,18 +1022,9 @@ class IRPersianCalendar extends Infrastructure
             month--;
         }
 
-        if(!this.#checkLimit(year, month, day_count))
-        {
-            return this.#selected;
-        }
-
         this.#selected[0] = year;
         this.#selected[1] = month;
-        this.#selected[2] = day_count;
 
-        let selected_day = this.#getSelectedDayWithEvents();
-
-        this.triggerEvent("updateDate", [selected_day]);
         this.#initDays();
 
         return this.#selected;
@@ -1062,11 +1039,7 @@ class IRPersianCalendar extends Infrastructure
         }
 
         this.#selected[0]++;
-        this.#selected[2] = 1;
 
-        let selected_day = this.#getSelectedDayWithEvents();
-
-        this.triggerEvent("updateDate", [selected_day]);
         this.#initDays();
 
         return this.#selected;
@@ -1082,11 +1055,7 @@ class IRPersianCalendar extends Infrastructure
         }
 
         this.#selected[0]--;
-        this.#selected[2] = day_count;
-
-        let selected_day = this.#getSelectedDayWithEvents();
-
-        this.triggerEvent("updateDate", [selected_day]);
+        
         this.#initDays();
 
         return this.#selected;

@@ -119,8 +119,3 @@ persian_calender.addEventListener("updateToday", function ()
 {
 	updateToday();
 });
-
-persian_calender.addEventListener("updateDate", function (selected_day)
-{
-	updateSelectedDay(selected_day);
-});

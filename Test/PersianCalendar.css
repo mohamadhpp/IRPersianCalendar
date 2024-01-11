@@ -80,6 +80,8 @@ select
 }
 
 
+/************************************************ Set custom style for calendar ***********************************************/
+
 #IR_PersianCalendar
 {
     width: 700px;
