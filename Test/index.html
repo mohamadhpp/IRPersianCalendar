@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Persian Calendar
+    </title>
+
+    <link rel="stylesheet" href="PersianCalendar.css">
+</head>
+<body>
+    <div id="container">
+        <div id="calendar_form">
+            <div>
+                <button type="button" onclick="nextYear()">
+                    سال بعد
+                </button>
+
+                <p id="year_display">
+                    ---
+                </p>
+
+                <button type="button" onclick="prevYear()">
+                    سال قبل
+                </button>
+            </div>
+
+            <div>
+                <button type="button" onclick="nextMonth()">
+                    ماه بعد
+                </button>
+
+                <p id="month_display">
+                    ---
+                </p>
+
+                <button type="button" onclick="prevMonth()">
+                    ماه قبل
+                </button>
+            </div>
+        </div>
+
+        <p id="day_info">
+            ---
+        </p>
+
+        <div id="IR_PersianCalendar"></div>
+
+        <p id="day_event">
+            ---
+        </p>
+    </div>
+
+    <script src="../IRPersianCalendar.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
