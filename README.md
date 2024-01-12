@@ -4,10 +4,7 @@ Persian calendar with Iran's official holidays and Iranian calendar events and I
 This Js library has the ability to display the Iranian calendar along with the official holidays of the Iranian calendar with the occasions of the Iranian calendar or the Islamic occasions of the Hijri lunar calendar.
 Also, this calendar supports the Gregorian date.
 
-
-**_Demo:_**  [See Demo](https://codepen.io/mohammadhp78/pen/zYbKVzq)
-
-
+ - [Demo](#Demo)
  - [Document](#Document)
  - [Usage](#Usage)
  - [Apis](#Apis)
@@ -17,6 +14,16 @@ Also, this calendar supports the Gregorian date.
 ## **Support Information**
 
 Support for Islamic occasions and holidays is up to the date of 1464 AH, which needs to be updated for the following years.
+
+
+## **Demo**
+
+Demo version screenshot. \
+Online demo version url: [See Demo](https://codepen.io/mohammadhp78/pen/zYbKVzq)
+
+![Demo Version](Screenshot.jpg)
+
+
 ## **Document**
 
 IRPersianCalendar option for set when create object from class. \
@@ -212,11 +219,3 @@ persian_calender.addEventListener("updateTodayDate", function()
 });
 
 ```
-
-
-## **Demo**
-
-Demo version screenshot.
-Online demo version url: [See Demo](https://codepen.io/mohammadhp78/pen/zYbKVzq)
-
-![Demo Version](Screenshot.jpg)
