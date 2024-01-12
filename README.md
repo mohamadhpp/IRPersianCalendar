@@ -5,12 +5,13 @@ This Js library has the ability to display the Iranian calendar along with the o
 Also, this calendar supports the Gregorian date.
 
 
-**_Demo:_**  [See Demo](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+**_Demo:_**  [See Demo](https://codepen.io/mohammadhp78/pen/zYbKVzq)
 
 
  - [Usage](#Usage)
  - [Apis](#Apis)
  - [Events](#Events)
+ - [Demo](#Demo)
 
 ## **Support Information**
 
@@ -216,5 +217,6 @@ persian_calender.addEventListener("updateTodayDate", function()
 ## **Demo**
 
 Demo version screenshot.
+Online demo version url: [See Demo](https://codepen.io/mohammadhp78/pen/zYbKVzq)
 
 ![Demo Version](Screenshot.jpg)
