@@ -4,19 +4,26 @@ Persian calendar with Iran's official holidays and Iranian calendar events and I
 This Js library has the ability to display the Iranian calendar along with the official holidays of the Iranian calendar with the occasions of the Iranian calendar or the Islamic occasions of the Hijri lunar calendar.
 Also, this calendar supports the Gregorian date.
 
-
-**_Demo:_**  [See Demo](https://codepen.io/mohammadhp78/pen/zYbKVzq)
-
-
+ - [Demo](#Demo)
+ - [Document](#Document)
  - [Usage](#Usage)
  - [Apis](#Apis)
  - [Events](#Events)
- - [Demo](#Demo)
 
 ## **Support Information**
 
 Support for Islamic occasions and holidays is up to the date of 1464 AH, which needs to be updated for the following years.
-## **Documents**
+
+
+## **Demo**
+
+Demo version screenshot. \
+Online demo version url: [See Demo](https://codepen.io/mohamadhpp/pen/zYbKVzq)
+
+![Demo Version](Screenshot.jpg)
+
+
+## **Document**
 
 IRPersianCalendar option for set when create object from class. \
 These are the default values that will be like this during construction without needing any initialization.
@@ -79,7 +86,6 @@ And create object from IRPersianCalendar class and use this:
 ```
 let persian_calender = new IRPersianCalendar();
 persian_calender.init();
-
 ```
 
 After create and init calendar you need set style for calendar.
@@ -182,7 +188,7 @@ unofficial_world_events: []
 After selecting the date by the user, you can find out about the date selected by the user.
 
 ```
-persian_calender.addEventListener("selectDay", function(selected_date)
+persian_calender.addEventListener("selectDate", function(selected_date)
 {
 	...
 });
@@ -212,11 +218,3 @@ persian_calender.addEventListener("updateTodayDate", function()
 });
 
 ```
-
-
-## **Demo**
-
-Demo version screenshot.
-Online demo version url: [See Demo](https://codepen.io/mohammadhp78/pen/zYbKVzq)
-
-![Demo Version](Screenshot.jpg)
