@@ -541,9 +541,9 @@ class IRPersianCalendar extends Infrastructure
                         event.target.classList.add(self.#option.html.selectedClass);
 
                         self.#selected[2] = parseInt(event.target.innerText);
-                        let selected_day = self.#getSelectedDayWithEvents();
+                        let selected_date = self.#getSelectedDayWithEvents();
 
-                        self.triggerEvent("selectDay", [selected_day]);
+                        self.triggerEvent("selectDate", [selected_date]);
                     }
                 });
             }
@@ -850,19 +850,19 @@ class IRPersianCalendar extends Infrastructure
     }
 
 
-    persianMonthName(index)
+    persianMonthName(month)
     {
-        return this.#persian_month_names[index - 1];
+        return this.#persian_month_names[month - 1];
     }
 
-    hijriMonthName(index)
+    hijriMonthName(month)
     {
-        return this.#hijri_month_names[index - 1];
+        return this.#hijri_month_names[month - 1];
     }
 
-    gregorianMonthName(index)
+    gregorianMonthName(month)
     {
-        return this.#gregorian_month_names[index - 1];
+        return this.#gregorian_month_names[month - 1];
     }
 
 
@@ -882,7 +882,7 @@ class IRPersianCalendar extends Infrastructure
         {
             if(last_date[0] !== today[0] || last_date[1] !== today[1] || last_date[2] !== today[2])
             {
-                this.triggerEvent("updateToday");
+                this.triggerEvent("updateTodayDate");
                 this.#initDays();
             }
         }
@@ -1069,7 +1069,7 @@ class IRPersianCalendar extends Infrastructure
 
         let events = this.#getDayEvents(this.#selected, this.#selected_hijri, this.#selected_gregorian);
 
-        let selected_day =
+        let selected_date =
             {
                 date: this.#selected,
                 hijri_date: this.#selected_hijri,
@@ -1081,7 +1081,7 @@ class IRPersianCalendar extends Infrastructure
                 unofficial_world_events: events.unofficial_world_events
             };
 
-        return selected_day;
+        return selected_date;
     }
 
 

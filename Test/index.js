@@ -110,12 +110,14 @@ function prevYear()
 	document.getElementById("year_display").innerText = persian_calender.prevYear()[0];
 }
 
-persian_calender.addEventListener("selectDay", function(selected_day)
+persian_calender.addEventListener("selectDate", function(selected_date)
 {
-	updateSelectedDay(selected_day);
+	console.log(selected_date)
+
+	updateSelectedDay(selected_date);
 });
 
-persian_calender.addEventListener("updateToday", function ()
+persian_calender.addEventListener("updateTodayDate", function ()
 {
 	updateToday();
 });
