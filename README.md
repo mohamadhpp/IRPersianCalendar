@@ -9,7 +9,6 @@ Also, this calendar supports the Gregorian date.
  - [Usage](#Usage)
  - [Apis](#Apis)
  - [Events](#Events)
- - [Demo](#Demo)
 
 ## **Support Information**
 
