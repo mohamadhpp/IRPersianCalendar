@@ -112,8 +112,6 @@ function prevYear()
 
 persian_calender.addEventListener("selectDate", function(selected_date)
 {
-	console.log(selected_date)
-
 	updateSelectedDay(selected_date);
 });
 
