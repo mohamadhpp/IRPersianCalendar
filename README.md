@@ -8,6 +8,7 @@ Also, this calendar supports the Gregorian date.
 **_Demo:_**  [See Demo](https://codepen.io/mohammadhp78/pen/zYbKVzq)
 
 
+ - [Document](#Document)
  - [Usage](#Usage)
  - [Apis](#Apis)
  - [Events](#Events)
@@ -16,7 +17,7 @@ Also, this calendar supports the Gregorian date.
 ## **Support Information**
 
 Support for Islamic occasions and holidays is up to the date of 1464 AH, which needs to be updated for the following years.
-## **Documents**
+## **Document**
 
 IRPersianCalendar option for set when create object from class. \
 These are the default values that will be like this during construction without needing any initialization.
