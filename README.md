@@ -216,5 +216,4 @@ persian_calender.addEventListener("updateTodayDate", function()
 {
 	...
 });
-
 ```
