@@ -80,7 +80,6 @@ And create object from IRPersianCalendar class and use this:
 ```
 let persian_calender = new IRPersianCalendar();
 persian_calender.init();
-
 ```
 
 After create and init calendar you need set style for calendar.
