@@ -189,7 +189,7 @@ unofficial_world_events: []
 After selecting the date by the user, you can find out about the date selected by the user.
 
 ```
-persian_calender.addEventListener("selectDay", function(selected_date)
+persian_calender.addEventListener("selectDate", function(selected_date)
 {
 	...
 });
