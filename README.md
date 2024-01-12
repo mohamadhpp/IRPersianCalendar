@@ -19,7 +19,7 @@ Support for Islamic occasions and holidays is up to the date of 1464 AH, which n
 ## **Demo**
 
 Demo version screenshot. \
-Online demo version url: [See Demo](https://codepen.io/mohammadhp78/pen/zYbKVzq)
+Online demo version url: [See Demo](https://codepen.io/mohamadhpp/pen/zYbKVzq)
 
 ![Demo Version](Screenshot.jpg)
 
