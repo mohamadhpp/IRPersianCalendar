@@ -104,9 +104,9 @@ helper apis:
 persianMonthName(month); //persian month name use month number
 hijriMonthName(month); //for hijri
 gregorianMonthName(month); //for gregorian
-
+```
 Example:
-
+```
 persian_calender.hijriMonthName(1); //output: محرم
 ```
 
@@ -115,9 +115,9 @@ Get today date or user selected date:
 ```
 getToday(); //get today date
 getSelectedDay(); //get selected date
-
+```
 Example:
-
+```
 persian_calender.getToday(); //output: [1402, 10, 21]
 ```
 
@@ -126,9 +126,9 @@ Change date (year and month) using this method:
 ```
 setYear(year, month = undefined); //you can change calendar year and if needed, the month 
 setMonth(month); //you can change month
-
+```
 Example: 
-
+```
 persian_calender.setYear(1405);
 ```
 
@@ -140,8 +140,9 @@ nextMonth();
 
 prevYear();
 nextYear();
-
+```
 Example:
+```
 persian_calender.nextMonth(); //output: [1402, 11, 21]
 
 if the date is equal to: 1402/10/21
@@ -159,9 +160,9 @@ getSelectedDayGregorianInfo();
 
 getTodayHijriInfo();
 getSelectedDayHijriInfo();
-
+```
 Example:
-
+```
 persian_calender.getTodayPersianInfo(); //output: جمعه 22ام دی سال 1402 شمسی
 persian_calender.getSelectedDayHijriInfo(); //output: سه‌شنبه 24ام شعبان سال 1445 هجری قمری
 ```
@@ -171,9 +172,9 @@ And you can see the event for today's date and user selected date:
 ```
 getTodayEvents();
 getSelectedDayEvents();
-
+```
 Example: 
-
+```
 persian_calender.getSelectedDayEvents();
 
 //output:
