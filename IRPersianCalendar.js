@@ -112,12 +112,13 @@ class IRPersianCalendar extends Infrastructure
     #official_world_events =
     [
         { date: [1, 1], title: ['جشن آغاز سال نو میلادی'], is_holiday: false },
-        { date: [1, 14], title: ['روز جهانی منطق', 'جشن ولنتاین'], is_holiday: false },
+        { date: [1, 14], title: ['روز جهانی منطق'], is_holiday: false },
         { date: [1, 24], title: ['روز جهانی آموزش', 'روز جهانی فرهنگ آفریقایی'], is_holiday: false },
         { date: [1, 26], title: ['روز جهانی گمرک'], is_holiday: false },
         { date: [1, 27], title: ['روز جهانی یادبود هولوکاست'], is_holiday: false },
         { date: [2, 11], title: ['روز جهانی زنان و دختران در علم'], is_holiday: false },
         { date: [2, 13], title: ['روز جهانی رادیو'], is_holiday: false },
+        { date: [2, 14], title: ['جشن ولنتاین'], is_holiday: false },
         { date: [2, 20], title: ['روز جهانی عدالت اجتماعی'], is_holiday: false },
         { date: [2, 21], title: ['روز جهانی زبان مادری'], is_holiday: false },
         { date: [3, 4], title: ['روز جهانی مهندسی برای توسعه پایدار'], is_holiday: false },
